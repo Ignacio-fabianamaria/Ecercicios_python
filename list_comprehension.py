@@ -15,7 +15,7 @@ numeros = [n * 10 for n in range(1, 16)]
 print("Multiplicar 10: ", numeros)
 
 # Lista de números pares elevados à 2
-pares = [n ** 2 for n in range(0, 11) if n % 2 != 0]
+pares = [n ** 2 for n in range(0, 11) if n % 2 == 0]
 print(pares)
 
 # Lista com caractéres maiúsculos
